@@ -1,4 +1,3 @@
-
 def mergeSort(arrayToSort):
 
     if len(arrayToSort) > 1:
@@ -6,6 +5,7 @@ def mergeSort(arrayToSort):
 
         leftArray = arrayToSort[arrayCenter:]
         rightArray = arrayToSort[:arrayCenter]
+
         mergeSort(leftArray)
         mergeSort(rightArray)
 
@@ -32,7 +32,8 @@ def mergeSort(arrayToSort):
             j += 1
             k += 1
 
-
+'''
 array = [38,27,43,3,9,82,10]
 mergeSort(array)
 print(array)
+'''
